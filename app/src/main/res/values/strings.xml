@@ -26,6 +26,10 @@
         <item>Vada Pav</item>
     </string-array>
 
+
+    <!-- Was getting a "Multiple substitutions specified in non-positional format;
+    did you mean to add the formatted="false" attribute?" error.
+    https://stackoverflow.com/a/12605846/2107568 suggests adding formatted="false" to resolve this -->
     <string-array name="sandwich_details" formatted="false">
         <item>{\"name\":{\"mainName\":\"Ham and cheese
             sandwich\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"\",\"description\":\"A ham and cheese
